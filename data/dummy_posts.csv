@@ -1,0 +1,6 @@
+post_id,text,expert_a,expert_b,expert_c
+dummy_001.txt,"Placeholder only: ein Beitrag ohne Anhaltspunkte fuer strafrechtliche Relevanz.",Kein Paragraph,Kein Paragraph,Kein Paragraph
+dummy_002.txt,"Placeholder only: ein Beitrag, der bei harter Auslegung einen Gruppenbezug als Tatbestandsmerkmal erfuellen koennte.",Kein Paragraph,§ 130,Kein Paragraph
+dummy_003.txt,"Placeholder only: ein Beitrag, bei dem eindeutig eine Beleidigung vorliegt.",§ 185 ff.,§ 185 ff.,§ 185 ff.
+dummy_004.txt,"Placeholder only: ein Beitrag, bei dem zwei von drei Bewertenden eine Aufforderung zu einer Straftat sehen.",§ 111,§ 111,Kein Paragraph
+dummy_005.txt,"Placeholder only: ein Beitrag, bei dem je nach Gewichtung eine Beleidigung oder eine Volksverhetzung vorliegen koennte.",§ 130,§ 130,§ 185 ff.

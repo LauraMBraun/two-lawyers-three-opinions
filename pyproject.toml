@@ -1,0 +1,20 @@
+[project]
+name = "llm-uncertainty-legal"
+version = "0.1.0"
+description = "Output-based LLM uncertainty vs. expert disagreement on German criminal-law annotations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.3",
+    "requests>=2.31",
+    "transformers>=4.51",
+    "torch>=2.2",
+    "accelerate>=0.30",
+]
+
+
+[tool.uv]
+package = false
