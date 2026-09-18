@@ -3,8 +3,8 @@
 Code for the workshop paper *Two Lawyers, Three Opinions: Can Output-Based LLM Uncertainty Find the Cases
 Where Experts Disagree?* (UncertaiNLP @ EMNLP 2026).
 
-The paper evaluates two output-based uncertainty signals — **sampling entropy** and
-**verbalized probability** — against expert disagreement on German social media posts
+The paper evaluates two output-based uncertainty signals -- **sampling entropy** and
+**verbalized probability** -- against expert disagreement on German social media posts
 annotated for punishability under the StGB.
 
 **The corpus in this repository carries no content.** The KISTRA data used in the paper
