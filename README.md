@@ -19,7 +19,7 @@ uv sync
 
 
 ```bash
-./run_all.sh hf:Qwen/Qwen3-0.6B   
+./run_all.sh Qwen/Qwen3-0.6B   
 ```
 
 ### Models

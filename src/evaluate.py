@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Every number the paper reports, for one run directory or all of them.
 
-    uv run src/evaluate.py                       # all runs under results/
-    uv run src/evaluate.py --run results/mock_on
-
+    uv run src/evaluate.py                      
 Writes metrics.json per run and results/summary.csv across runs.
 """
 from __future__ import annotations

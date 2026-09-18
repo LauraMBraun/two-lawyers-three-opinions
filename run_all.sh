@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Full pipeline on the dummy corpus: inference -> metrics -> figures.
-#   ./run_all.sh hf:Qwen/Qwen3-0.6B     # local model via transformers
+#   ./run_all.sh Qwen/Qwen3-0.6B     # local model via transformers
 
 set -euo pipefail
 
