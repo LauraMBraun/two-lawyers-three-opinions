@@ -1,6 +1,6 @@
-# Two Lawyers, Three Opinions — replication code
+# Two Lawyers, Three Opinions (Replication code)
 
-Code for *Two Lawyers, Three Opinions: Can Output-Based LLM Uncertainty Find the Cases
+Code for the workshop paper *Two Lawyers, Three Opinions: Can Output-Based LLM Uncertainty Find the Cases
 Where Experts Disagree?* (UncertaiNLP @ EMNLP 2026).
 
 The paper evaluates two output-based uncertainty signals — **sampling entropy** and
@@ -49,7 +49,7 @@ figures/               pdf + png
 is the majority of the samples (a 5/5 split counts as not punishable), the **verbalized
 probability** is the mean of the reported `p_punishable` values, and **sampling entropy**
 is the binary entropy of the share of punishable judgments. As an uncertainty score the
-verbalized probability enters as its closeness to 0.5, `1 - 2|p - 0.5|`.
+verbalized probability enters as its closeness to 0.5.
 
 `evaluate.py` writes `metrics.json` per run:
 
