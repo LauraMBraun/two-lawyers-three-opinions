@@ -3,8 +3,8 @@
 Code for the workshop paper *Two Lawyers, Three Opinions: Can Output-Based LLM Uncertainty Find the Cases
 Where Experts Disagree?* (UncertaiNLP @ EMNLP 2026).
 
-The paper evaluates two output-based uncertainty signals -- **sampling entropy** and
-**verbalized probability** -- against expert disagreement on German social media posts
+The paper evaluates two output-based uncertainty signals as **sampling entropy** and
+**verbalized probability** against expert disagreement on German social media posts
 annotated for punishability under the StGB.
 
 **The corpus in this repository carries no content.** The KISTRA data used in the paper
@@ -28,8 +28,7 @@ In this replication package we use with QWEN3 0.6B by default a smaller options 
 The paper uses Qwen3 8B/32B and Gemma 4 12B/31B at the recommended temperatures (0.6/0.7 and 1.0).
 
 Small models might fail to emit the required JSON. Samples that do not parse are dropped
-and counted in `n_valid_samples`; a post with zero valid samples is excluded downstream.
-If most samples fail, raise `--max-tokens` or drop to `--thinking off`.
+and counted in `n_valid_samples``.
 
 ## Layout
 
